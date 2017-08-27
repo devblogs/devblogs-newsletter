@@ -30,7 +30,7 @@ a {
 .subscribe {
 	background: red;
 	padding: 20px;
-	margin: 10px;
+	margin: auto;
 	margin-top: 200px;
 	cursor: pointer;
 	text-decoration: none !important;
@@ -53,4 +53,41 @@ a {
 	background: red;
 	color: white;
 	padding: 10px;
+}
+
+.blog_body {
+	margin: auto;
+}
+
+.blog_body_content {
+	font-size: 32px;
+	line-height: 68px;
+}
+
+.red_bg {
+	background: red;
+	color: white;
+	padding-left: 2px;
+	padding-right: 2px;
+	border-right : 2px solid white;
+	-webkit-animation: blinking 1.2s linear infinite ; /* Safari 4.0 - 8.0 */
+    animation: blinking 1.2s linear infinite ;
+}
+
+.red_underline {
+	border-bottom : 2px solid red;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes blinking {
+    0%   {background :red; color:white; }
+    40% {background :white; color:black; border-right : 2px solid black;}
+    100% {background :white; color:black;}
+}
+
+/* Standard syntax */
+@keyframes blinking {
+    0%   {background :red; color:white; }
+    40% {background :white; color:black; border-right : 2px solid black;}
+    100% {background :white; color:black;}
 }
