@@ -36,3 +36,21 @@ a {
 	text-decoration: none !important;
 	color: white !important;
 }
+
+.submitButton {
+	background: red !important;
+}
+
+.back a{
+	text-decoration: none;
+	padding: 10px;
+	color: black;
+	border-bottom: 1px solid red;
+	border-top: 1px solid red;
+}
+
+.back a:hover{
+	background: red;
+	color: white;
+	padding: 10px;
+}

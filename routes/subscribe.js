@@ -4,7 +4,7 @@ var path = require('path');
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.sendFile('subscribe.html', { root : 'public' });
+  res.sendFile('subscribe.html', { root : 'views' });
 });
 
 module.exports = router;
