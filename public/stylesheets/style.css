@@ -1,8 +1,28 @@
 body {
-  padding: 50px;
+  padding: 100px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+.title {
+	font-size: 24px;
+}
+
+.title_ {
+	color: red;
+}
+
+.title_dev {
+	color : black;
+}
+
+.title_blogs {
+	color : grey;
+}
+
+.body {
+	margin-top: 100px;
 }
