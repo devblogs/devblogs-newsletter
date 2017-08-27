@@ -74,6 +74,31 @@ a {
     animation: blinking 1.2s linear infinite ;
 }
 
+.social {
+	width: 100%;
+	position: absolute;
+}
+
+.social a{
+	text-decoration: none;
+}
+
+.social_icon {
+	font-size: 30px;
+	color : grey !important;
+	padding: 5px;
+	width: 40px;
+	border-radius: 5px;
+	float: left;
+	margin: 5px;
+	-webkit-transition: all 0.3s;
+}
+
+.social_icon:hover {
+	color : white !important;
+	background: red;
+}
+
 .red_underline {
 	border-bottom : 2px solid red;
 }
