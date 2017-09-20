@@ -99,6 +99,18 @@ a {
 	background: red;
 }
 
+.special {
+	font-size: 30px;
+	padding: 5px;
+	width: 40px;
+	border-radius: 5px;
+	float: left;
+	margin: 5px;
+	color: red !important;
+	-webkit-animation: iblinking 1.2s linear infinite ; /* Safari 4.0 - 8.0 */
+    animation: iblinking 1.2s linear infinite ;
+}
+
 .red_underline {
 	border-bottom : 2px solid red;
 }
@@ -122,6 +134,18 @@ a {
     0%   {background :red; color:white; }
     40% {background :white; color:black; border-right : 2px solid black;}
     100% {background :white; color:black;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes iblinking {
+    0%   {background :red; color:white; }
+    50% {background :white; color:red;}
+}
+
+/* Standard syntax */
+@keyframes iblinking {
+    0%   {background :red; color:white; }
+    50% {background :white; color:red;}
 }
 
 
